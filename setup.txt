@@ -1,8 +1,14 @@
-npm init -y
-npm install --save-dev typescript
-npm install --save-dev webpack webpack-cli
-npm install --save-dev webpack-dev-server
-npm install --save-dev html-webpack-plugin
+npm install -g npm@9.7.1
+
+npm --version
+npx --version
+
+npx create-react-app virtuallife --template typescript
+cd virtuallife
+
 npm install bootstrap@5.3.0
 npm install unirand
 npm install chart.js
+
+IQ -> skills -> salary | investment | luck
+sick, accident
